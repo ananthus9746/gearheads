@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "img": "/assets/img/service/service_1.jpg",
+        "title": "Mechanical Services",
+        "desp": "Our mechanical services cover a wide range of repairs and maintenance tasks for your vehicle. From engine diagnostics and repair to suspension work, transmission services, and more, our experienced technicians ensure your vehicle is running at peak performance. "
+    },
+    {
+        "id": 2,
+        "img": "/assets/img/service/service_2.jpg",
+        "title": "Air Conditioning (AC) Services",
+        "desp": "Stay cool and comfortable with our reliable air conditioning services. Our team specializes in diagnosing and repairing all types of air conditioning problems, ensuring your system is running efficiently"
+    },
+    {
+        "id": 3,
+        "img": "/assets/img/service/service_3.jpg",
+        "title": "Electrical Services",
+        "desp": "Modern vehicles are equipped with complex electrical systems. Our skilled technicians can handle all electrical repairs, from battery issues to intricate wiring problems. "
+    },
+    {
+        "id": 4,
+        "img": "/assets/img/service/service_4.jpg",
+        "title": "Denting & Painting",
+        "desp": "Restore the look of your vehicle with our professional denting and painting services. Whether it's a minor dent or a major collision repair, we provide quality bodywork and painting services that bring your car back to life. "
+    },
+    {
+        "id": 5,
+        "img": "/assets/img/service/service_5.jpg",
+        "title": "Accident Repair",
+        "desp": "After an accident, your vehicle needs precise repair work to restore its structural integrity and functionality. At Gear Heads Auto Garage, we offer expert accident repair services, ensuring your car is safe and roadworthy again. "
+    },
+    {
+        "id": 6,
+        "img": "/assets/img/service/service_1.jpg",
+        "title": "Preventive Maintenance",
+        "desp": "Preventive maintenance is key to ensuring the longevity and reliability of your vehicle. Our expert technicians will help you stay on top of essential maintenance tasks, reducing the likelihood of unexpected breakdowns.  "
+    },
+    {
+        "id": 7,
+        "img": "/assets/img/service/service_2.jpg",
+        "title": "Fleet Maintenance Services",
+        "desp": "At Gear Heads Auto Garage, we understand the unique needs of businesses that rely on a fleet of vehicles to keep their operations running smoothly. Whether you manage a small fleet of delivery vans, a large fleet of commercial trucks, or any other type of business vehicles, we provide reliable and cost-effective fleet maintenance services to ensure your vehicles are always on the road, operating at peak performance."
+    },
+    {
+        "id": 8,
+        "img": "/assets/img/service/service_3.jpg",
+        "title": "Fuel Efficiency Improvement Services",
+        "desp": "Maximize your vehicle’s fuel efficiency with our specialized fuel-saving services. Over time, certain components in your engine can become clogged or worn out, affecting performance and fuel economy."
+    }
+]
