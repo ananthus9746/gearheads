@@ -31,6 +31,7 @@ const checklist = [
       'Windshield washer',
       'Automatic transmission fluid',
       'Check AC Gas (blows cold)',
+      'Battery health',
     ],
   },
   {
@@ -139,7 +140,8 @@ const ServiceForm = () => {
     vehicleModel: '',
     date: '',
     orderId: '',
-    invoice: ''
+    invoice: '',
+    killometer: '',
   });
 
   const handleRadioChange = (item, value) => {
@@ -209,6 +211,17 @@ const ServiceForm = () => {
               className={styles.inputField}
             />
           </label>
+
+          <label className={styles.label}>
+            Killometer:
+            <input
+              type="text"
+              name="killometer"
+              value={extraData.killometer}
+              onChange={handleExtraDataChange}
+              className={styles.inputField}
+            />
+          </label>
          
         
         </div>
@@ -217,10 +230,10 @@ const ServiceForm = () => {
       {/* Checklist */}
       {checklist.map((section) => (
         <div key={section.section} style={{ marginBottom: '20px' }}>
-          <h3>{section.section}</h3>
+          <h3 style={{color:"black",marginBottom:"20px"}}>{section.section}</h3>
           {section.items.map((item) => (
             <div key={item} style={{ marginBottom: '15px' }}>
-              <p>{item}</p>
+              <p style={{color:"blue"}}>{item}</p>
 
               {/* Replace checkboxes with radio buttons */}
               <label>
@@ -284,7 +297,7 @@ const ServiceForm = () => {
       </Link> */}
       <Link
         to={"/invoice"}
-        style={{ textDecoration: "none", color: "blue" }}
+        style={{ textDecoration: "none", color: "blue",border:"2px solid black",padding:"10px",borderRadius:"5px" }}
         state={{ formData: formData, extraData: extraData }}
       >
         View Invoice

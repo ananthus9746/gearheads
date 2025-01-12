@@ -9,7 +9,20 @@ const footerDataArray = [
     className: "footer-info",
     dataAosDelay: "0",
     phone: "(406) 555-0120",
-    desp: "",
+    desp: <>
+      <h5 className="email-title">
+        Work time:
+        <ul>
+          <li>Saturday: 8:30 AM – 1 PM, 4:30 – 10:30 PM</li>
+          <li>Sunday: 8:30 AM – 1 PM, 4:30 – 10:30 PM</li>
+          <li>Monday: 8:30 AM – 1 PM, 4:30 – 10:30 PM</li>
+          <li>Tuesday: 8:30 AM – 1 PM, 4:30 – 10:30 PM</li>
+          <li>Wednesday: 8:30 AM – 1 PM, 4:30 – 10:30 PM</li>
+          <li>Thursday: 8:30 AM – 1 PM, 4:30 – 10:30 PM</li>
+          <li>Friday: Off, 4:30 – 8:30 PM</li>
+        </ul>
+      </h5>
+    </>,
   },
   {
     className: "footer-menu-one",
@@ -17,14 +30,24 @@ const footerDataArray = [
     links: [
       { title: "About", link: "/about" },
       { title: "Service", link: "/service" },
+      { title: "Pricing", link: "/pricing" },
       { title: "Team", link: "/team" },
+      { title: "Contact Us", link: "/contact" },
+    ],
+  },
+  {
+    className: "footer-menu-two",
+    dataAosDelay: "100",
+    links: [
+      { title: "Instagram", link: "https://www.instagram.com/gh_auto_garage/" },
+      { title: "TikTok", link: "https://www.instagram.com/gh_auto_garage/" }
     ],
   },
   {
     className: "footer-address",
     dataAosDelay: "150",
-    address: "901 N Pitt Str., Suite 170 Alexandria, NY, USA",
-    email: "example@email.com",
+    address: "Gear Heads Auto Garage LLC.Street Number 6, Industrial Area.Al Ain, Abu Dhabi.",
+    email: " info@gearheads.ae",
   },
 ];
 
@@ -60,14 +83,54 @@ const Footer = () => {
             data-aos-delay="100"
             data-aos-offset="0"
           >
-          
+            <div
+              className="background-text"
+              data-aos="fade-left"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            >
+              Newsletter
+            </div>
+            <div className="footer-heading-email">
             
+              <div>
+                <p id="ak-alert-footer">{message}</p>
+                <form className="email-form" onSubmit={handleSubmit}>
+                  <input
+                    type="text"
+                    name="footerEmail"
+                    id="footerEmail"
+                    placeholder="Enter your email..."
+                    className="email-input"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                  />
+                  <button type="submit" className="submit-btn">
+                    <span className="send">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="25"
+                        viewBox="0 0 25 25"
+                        fill="none"
+                      >
+                        <path
+                          d="M23.0345 3.91676C23.5566 2.42362 22.157 0.976718 20.7126 1.51775L3.06022 8.11754C1.61105 8.65982 1.43579 10.704 2.76894 11.5024L8.40369 14.8748L13.4353 9.67315C13.6633 9.44555 13.9686 9.31961 14.2855 9.32246C14.6024 9.3253 14.9055 9.45671 15.1296 9.68837C15.3537 9.92004 15.4808 10.2334 15.4836 10.561C15.4863 10.8887 15.3645 11.2043 15.1444 11.4399L10.1127 16.6415L13.3761 22.4667C14.1472 23.8448 16.1246 23.6624 16.6491 22.1655L23.0345 3.91676Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                </form>
+              </div>
+            </div>
           </div>
           <div className="ak-height-70 ak-height-lg-30"></div>
           <div className="primary-color-border"></div>
           <div className="ak-height-35 ak-height-lg-30"></div>
           <div className="footer-logo ">
-            <img src={footerLogo}  alt="footer-logo" />
+            <img src={footerLogo} alt="footer-logo" />
             <div className="ak-height-15 ak-height-lg-10"></div>
           </div>
           <div className="footer-content">
@@ -130,15 +193,7 @@ const Footer = () => {
                       </span>
                       {item.email}
                     </Link>
-                    <p className="date">
-                      <span className="me-1">
-                        <img
-                          src="/assets/img/icon/calender.svg"
-                          alt="Calendar"
-                        />
-                      </span>
-                      Sun - Thu: Open 24/7
-                    </p>
+                    
                   </div>
                 )}
               </div>

@@ -2,49 +2,163 @@
     {
         "id": 1,
         "img": "/assets/img/service/service_1.jpg",
-        "title": "Mechanical Services",
-        "desp": "Our mechanical services cover a wide range of repairs and maintenance tasks for your vehicle. From engine diagnostics and repair to suspension work, transmission services, and more, our experienced technicians ensure your vehicle is running at peak performance. "
+        "title": "Engine Diagnostics and Repair",
+        "desp": "Comprehensive diagnostics to identify engine issues, followed by expert repairs to restore optimal performance and efficiency."
     },
     {
         "id": 2,
         "img": "/assets/img/service/service_2.jpg",
-        "title": "Air Conditioning (AC) Services",
-        "desp": "Stay cool and comfortable with our reliable air conditioning services. Our team specializes in diagnosing and repairing all types of air conditioning problems, ensuring your system is running efficiently"
+        "title": "Transmission Services",
+        "desp": "Detailed inspection and repair of automatic and manual transmissions to ensure smooth shifting and reliable operation."
     },
     {
         "id": 3,
         "img": "/assets/img/service/service_3.jpg",
-        "title": "Electrical Services",
-        "desp": "Modern vehicles are equipped with complex electrical systems. Our skilled technicians can handle all electrical repairs, from battery issues to intricate wiring problems. "
+        "title": "Brake System Services",
+        "desp": "Thorough inspection and maintenance of brake components, including pads, rotors, and fluid, to guarantee your safety on the road."
     },
     {
         "id": 4,
         "img": "/assets/img/service/service_4.jpg",
-        "title": "Denting & Painting",
-        "desp": "Restore the look of your vehicle with our professional denting and painting services. Whether it's a minor dent or a major collision repair, we provide quality bodywork and painting services that bring your car back to life. "
+        "title": "Suspension and Steering Repair",
+        "desp": "Expert adjustments and repairs to your vehicle's suspension and steering systems for improved handling and ride comfort."
     },
     {
         "id": 5,
         "img": "/assets/img/service/service_5.jpg",
-        "title": "Accident Repair",
-        "desp": "After an accident, your vehicle needs precise repair work to restore its structural integrity and functionality. At Gear Heads Auto Garage, we offer expert accident repair services, ensuring your car is safe and roadworthy again. "
+        "title": "Exhaust System Repair",
+        "desp": "Complete assessment and repair of exhaust components to reduce emissions and enhance engine performance."
     },
     {
         "id": 6,
         "img": "/assets/img/service/service_1.jpg",
-        "title": "Preventive Maintenance",
-        "desp": "Preventive maintenance is key to ensuring the longevity and reliability of your vehicle. Our expert technicians will help you stay on top of essential maintenance tasks, reducing the likelihood of unexpected breakdowns.  "
+        "title": "Cooling System Services",
+        "desp": "Comprehensive checks and repairs of radiators, hoses, and water pumps to prevent overheating and ensure engine longevity."
     },
     {
         "id": 7,
         "img": "/assets/img/service/service_2.jpg",
-        "title": "Fleet Maintenance Services",
-        "desp": "At Gear Heads Auto Garage, we understand the unique needs of businesses that rely on a fleet of vehicles to keep their operations running smoothly. Whether you manage a small fleet of delivery vans, a large fleet of commercial trucks, or any other type of business vehicles, we provide reliable and cost-effective fleet maintenance services to ensure your vehicles are always on the road, operating at peak performance."
+        "title": "Fuel System Cleaning",
+        "desp": "Professional cleaning and servicing of fuel injectors and filters to improve fuel efficiency and engine responsiveness."
     },
     {
         "id": 8,
         "img": "/assets/img/service/service_3.jpg",
-        "title": "Fuel Efficiency Improvement Services",
-        "desp": "Maximize your vehicle’s fuel efficiency with our specialized fuel-saving services. Over time, certain components in your engine can become clogged or worn out, affecting performance and fuel economy."
+        "title": "Electrical System Diagnostics",
+        "desp": "In-depth analysis of your vehicle’s electrical systems to troubleshoot issues with batteries, alternators, and wiring."
+    },
+    {
+        "id": 9,
+        "img": "/assets/img/service/service_4.jpg",
+        "title": "Denting Repair",
+        "desp": "Expert removal of dents and dings using advanced techniques to restore your vehicle’s body to its original shape without compromising the finish."
+    },
+    {
+        "id": 10,
+        "img": "/assets/img/service/service_5.jpg",
+        "title": "Paintless Dent Repair",
+        "desp": "A cost-effective method to fix minor dents without repainting, preserving the vehicle’s original paint while ensuring a smooth surface."
+    },
+    {
+        "id": 11,
+        "img": "/assets/img/service/service_1.jpg",
+        "title": "Scratch and Chip Repair",
+        "desp": "Professional touch-ups to remove scratches and chips, restoring the integrity of your vehicle’s paint and enhancing its appearance."
+    },
+    {
+        "id": 12,
+        "img": "/assets/img/service/service_2.jpg",
+        "title": "Full Body Painting",
+        "desp": "Comprehensive repainting services using high-quality paints for a flawless finish, transforming your vehicle’s look and protecting it from the elements."
+    },
+    {
+        "id": 13,
+        "img": "/assets/img/service/service_3.jpg",
+        "title": "Color Matching",
+        "desp": "Precision color matching to ensure that any paint repairs seamlessly blend with your vehicle’s existing color for a uniform appearance."
+    },
+    {
+        "id": 14,
+        "img": "/assets/img/service/service_4.jpg",
+        "title": "Clear Coat Application",
+        "desp": "Application of a protective clear coat to enhance the shine and durability of the paint, shielding it from UV rays and environmental damage."
+    },
+    {
+        "id": 15,
+        "img": "/assets/img/service/service_5.jpg",
+        "title": "Rust Treatment and Prevention",
+        "desp": "Identification and treatment of rust spots, followed by protective coatings to prevent further corrosion and extend your vehicle's lifespan."
+    },
+    {
+        "id": 16,
+        "img": "/assets/img/service/service_1.jpg",
+        "title": "Custom Paint Jobs",
+        "desp": "Creative and personalized painting options to give your vehicle a unique look, from graphic designs to specialty finishes."
+    },
+    {
+        "id": 17,
+        "img": "/assets/img/service/service_2.jpg",
+        "title": "Bumper Repair and Repainting",
+        "desp": "Repair and repainting of damaged bumpers, restoring both appearance and functionality while matching the original color."
+    },
+    {
+        "id": 18,
+        "img": "/assets/img/service/service_3.jpg",
+        "title": "Preventative Maintenance",
+        "desp": "Regular inspections and servicing to keep fleet vehicles in optimal condition, minimizing downtime and extending their lifespan."
+    },
+    {
+        "id": 19,
+        "img": "/assets/img/service/service_4.jpg",
+        "title": "Scheduled Inspections",
+        "desp": "Comprehensive assessments at predetermined intervals to identify potential issues and ensure compliance with safety regulations."
+    },
+    {
+        "id": 20,
+        "img": "/assets/img/service/service_5.jpg",
+        "title": "Custom Fleet Solutions",
+        "desp": "Tailored maintenance plans designed to meet the specific needs of your fleet, ensuring optimal performance and cost-effectiveness."
+    },
+    {
+        "id": 21,
+        "img": "/assets/img/service/service_1.jpg",
+        "title": "Emergency Roadside Assistance",
+        "desp": "24/7 support for fleet vehicles, providing quick response and repairs to minimize downtime and keep your operations running smoothly."
+    },
+    {
+        "id": 22,
+        "img": "/assets/img/service/service_2.jpg",
+        "title": "Engine Tuning",
+        "desp": "Fine-tuning your engine for optimal performance, enhancing fuel combustion, and improving overall fuel efficiency."
+    },
+    {
+        "id": 23,
+        "img": "/assets/img/service/service_3.jpg",
+        "title": "Fuel System Cleaning",
+        "desp": "Professional cleaning of fuel injectors and filters to remove deposits, ensuring better fuel flow and efficiency."
+    },
+    {
+        "id": 24,
+        "img": "/assets/img/service/service_4.jpg",
+        "title": "Tire Maintenance",
+        "desp": "Regular tire rotations, alignments, and pressure checks to reduce rolling resistance and improve fuel economy."
+    },
+    {
+        "id": 25,
+        "img": "/assets/img/service/service_5.jpg",
+        "title": "Aerodynamic Modifications",
+        "desp": "Assessing and implementing aerodynamic enhancements to reduce drag, resulting in improved fuel efficiency during travel."
+    },
+    {
+        "id": 26,
+        "img": "/assets/img/service/service_1.jpg",
+        "title": "Weight Reduction Solutions",
+        "desp": "Identifying and removing unnecessary weight from your vehicle, which can significantly enhance fuel economy."
+    },
+    {
+        "id": 27,
+        "img": "/assets/img/service/service_2.jpg",
+        "title": "Regular Maintenance Checks",
+        "desp": "Comprehensive vehicle inspections to identify and resolve issues that could negatively impact fuel efficiency, such as air filter replacements and oil changes."
     }
 ]

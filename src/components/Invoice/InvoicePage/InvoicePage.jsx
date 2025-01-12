@@ -50,6 +50,7 @@ function InvoicePage() {
             doc.text(`Created Date: ${createdDate}`, 10, 39);
             doc.text(`Chasis No: ${extraData.chasisNo || ""}`, 10, 46);
             doc.text(`Vehicle Model: ${extraData.vehicleModel || ""}`, 10, 53);
+            doc.text(`Killometer: ${extraData.killometer || ""}`, 10, 60);
 
 
             // doc.text(`Date: ${extraData.date || ""}`, 10, 60);
@@ -134,27 +135,28 @@ function InvoicePage() {
 
                     <div className="invoice-information">
                         <p><b>Created Date:</b>{extraData.date || new Date().toLocaleDateString()}</p>
+                        <br />
+
                         <p><b>Chasis No:</b> {extraData.chasisNo}</p>
+                        <br />
+
                         <p><b>Vehicle Model:</b> {extraData.vehicleModel}</p>
+                        <br />
+
                         <p><b>Current Killometer Model:</b> </p>
+                        <br />
+
 
                     </div>
 
                     <br />
                     <br />
                     <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />                  
-                    <br />
-                    <br />
-
-
+               
                     <div className="invoice-body">
                         {Object.entries(groupedData).map(([section, items]) => (
                             <div key={section}>
-                                <h3>{section}</h3>
+                                <h4 style={{color:"black"}}>{section}</h4>
                                 <table className="table">
                                     <thead>
                                         <tr>
