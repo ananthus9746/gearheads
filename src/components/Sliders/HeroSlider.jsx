@@ -9,35 +9,52 @@ const sliderData = [
     id: 1,
     title: "Preventive Maintenance",
     maintitle: "Services",
-    desp: " At Gear Heads Auto Garage in Al Ain, our preventive maintenance services are crucial for keeping your vehicle in top condition. We offer comprehensive inspections and preventative care tailored to your car's specific needs, ensuring optimal performance and safety. Our skilled technicians use the latest tools and techniques to identify potential issues before they become costly repairs. Plus, our services come at significantly less expense than traditional showroom prices, allowing you to maintain your vehicle without breaking the bank. With our commitment to quality service and customer satisfaction, you can trust us to keep your vehicle running smoothly, so you can enjoy peace of mind on the road",
+    desp: `Regular maintenance is key to keeping your vehicle in top condition. Our preventive services help detect and fix issues early.  
+
+    Our expert technicians use the latest tools to ensure optimal performance and safety. We tailor our services to your vehicle’s needs.  
+
+    Enjoy smooth, worry-free driving with our comprehensive inspections and top-quality care.`,
     url: "/appointment",
     img: "/assets/img/hero/hero_slider_bg_1.png",
   },
   {
     id: 2,
-    title: "AUTOMOTIVE REPAIR",
-    maintitle: "MAINTENANCE",
-    desp: " At Gear Heads Auto Garage in Al Ain, our automobile repair services are designed to get you back on the road quickly and safely. Whether you're facing minor issues or major repairs, our experienced technicians are equipped to handle it all with precision and care. We utilize advanced diagnostic tools and high-quality parts to ensure reliable and lasting repairs. Best of all, our rates are significantly lower than those in the market, giving you excellent value without compromising on quality. Trust us to restore your vehicle's performance and keep you driving with confidence.",
+    title: "Automotive Repair",
+    maintitle: "Maintenance",
+    desp: `Facing car trouble? Our experienced technicians provide fast and reliable repairs to get you back on the road.  
+
+    We use advanced diagnostics and high-quality parts to ensure long-lasting performance. No issue is too big or small for us.  
+
+    Enjoy premium service at affordable rates without compromising on quality and safety.`,
     url: "/appointment",
     img: "/assets/img/hero/hero_slider_bg_2.png",
   },
   {
     id: 3,
-    title: "Accident repair services",
+    title: "Accident Repair Services",
     maintitle: "Services",
-    desp: "At Gear Heads Auto Garage in Al Ain, our accident repair services are focused on restoring your vehicle to its pre-accident condition with the utmost care. We specialize in denting work, ensuring that any damage is expertly addressed to maintain the integrity of your vehicle's body. Our skilled technicians use state-of-the-art techniques and high-quality materials for painting, delivering a flawless finish that matches your car's original color. Trust us to handle your accident repairs with precision and professionalism, so you can get back on the road with confidence.",
+    desp: `Restore your vehicle’s look and strength with our expert accident repair services. We specialize in denting and bodywork.  
+
+    Our skilled technicians use high-quality materials and techniques for flawless paint matching and refinishing.  
+
+    Trust us to handle all accident repairs with precision, so your car looks as good as new.`,
     url: "/appointment",
     img: "/assets/img/hero/hero_slider_bg_1.png",
   },
   {
     id: 4,
-    title: "Automobile facelifting services",
-    maintitle: "MAINTENANCE",
-    desp: " Our automobile facelifting services are designed to rejuvenate your vehicle and enhance its appearance. Whether you're looking to update the exterior styling, refresh the interior, or improve performance features, our expert team at Gear Heads Auto Garage in Al Ain is here to help. We use high-quality materials and advanced techniques to ensure a seamless transformation that meets your vision. Trust us to elevate your vehicle's aesthetic and performance, so you can enjoy a fresh driving experience.",
+    title: "Automobile Facelifting",
+    maintitle: "Maintenance",
+    desp: `Give your car a fresh new look with our expert facelifting services. We enhance both interior and exterior aesthetics.  
+
+    Our team uses top-quality materials to ensure a seamless transformation that matches your vision.  
+
+    Upgrade your vehicle’s style and performance with our professional touch.`,
     url: "/appointment",
     img: "/assets/img/hero/hero_slider_bg_2.png",
   },
 ];
+
 
 const HeroSlider = () => {
   const swiperRef = useRef(null);

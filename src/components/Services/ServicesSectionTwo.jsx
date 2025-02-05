@@ -3,7 +3,7 @@ import { ServiceCardTwo } from "./ServiceCardTwo";
 import servicesDataTwo from "../../dataJson/servicesDataTwo.json";
 
 const ServicesSectionTwo = ({ styleTypleTwo }) => {
-  const data = styleTypleTwo ? servicesDataTwo.slice(0, 3) : servicesDataTwo;
+  const data = styleTypleTwo ? servicesDataTwo : servicesDataTwo;
   return (
     <div className="container">
       <div className="ak-height-75 ak-height-lg-80"></div>

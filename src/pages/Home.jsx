@@ -11,6 +11,7 @@ import PricingTable from "../components/Pricing/PricingTable";
 import Blogs from "../components/Blog/Blogs";
 import Teams from "../components/Team/Teams";
 import AutoCounter from "../components/AutoCounter/AutoCounter";
+import ServicesSectionTwo from "../components/Services/ServicesSectionTwo";
 
 export default function Home() {
   return (
@@ -18,10 +19,12 @@ export default function Home() {
       <HeroSlider />
       <ServiceProgres />
       <ChooseUs />
-      <Services styleTypeTwo={true} />
+      {/* <Services styleTypeTwo={true} /> */}
+      <ServicesSectionTwo/>
+
       {/* <Videos videoId={"VcaAVWtP48A"} /> */}
-      <AutoCounter />
-      <TrustedClient />
+      {/* <AutoCounter /> */}
+      {/* <TrustedClient /> */}
       {/* <Testimonial /> */}
       {/* <Teams /> */}
       {/* <PricingTable /> */}

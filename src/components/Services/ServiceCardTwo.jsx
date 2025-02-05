@@ -10,13 +10,13 @@ export const ServiceCardTwo = ({ service }) => {
           <img src={service.icon} alt={service.title} />
         </div>
         <div className="service-desp">
-          <Link to={`/service-single/${service.id}`} className="title">
+          {/* <Link to={`/service-single/${service.id}`} className="title"> */}
             {service.title}
-          </Link>
+          {/* </Link> */}
           <p className="desp">{service.description}</p>
-          <MoreBtn to={`/service-single/${service.id}`} className="more-btn">
+          {/* <MoreBtn to={`/service-single/${service.id}`} className="more-btn">
             VIEW MORE
-          </MoreBtn>
+          </MoreBtn> */}
         </div>
       </div>
     </div>

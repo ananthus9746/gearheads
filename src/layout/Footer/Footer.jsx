@@ -8,7 +8,7 @@ const footerDataArray = [
   {
     className: "footer-info",
     dataAosDelay: "0",
-    phone: "(406) 555-0120",
+    phone: "0586986224",
     desp: <>
       <h5 className="email-title">
         Work time:
@@ -148,14 +148,14 @@ const Footer = () => {
                     <div className="ak-height-35 ak-height-lg-30"></div>
                     <div className="d-flex align-items-center gap-3">
                       <div className="heartbeat-icon">
-                        <Link to="tel:(406)555-0120">
+                        <Link to="tel:0586986224">
                           <span className="ak-heartbeat-btn">
                             <img src="/assets/img/icon/phone.svg" alt="..." />
                           </span>
                         </Link>
                       </div>
                       <TextAnimation
-                        link={"tel:(406)555-0120"}
+                        link={"tel:0586986224"}
                         title={item.phone}
                         classNamePass="phone white"
                       />

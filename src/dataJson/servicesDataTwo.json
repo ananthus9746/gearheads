@@ -1,56 +1,164 @@
 [
     {
         "id": 1,
-        "title": "Diagnostic Services",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "title": "Engine Diagnostics and Repair",
+        "description": "Comprehensive diagnostics to identify engine issues, followed by expert repairs to restore optimal performance and efficiency.",
         "icon": "/assets/img/icon/service-icon-1.svg"
     },
     {
         "id": 2,
-        "title": "Routine Maintenance",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "title": "Transmission Services",
+        "description": "Detailed inspection and repair of automatic and manual transmissions to ensure smooth shifting and reliable operation.",
         "icon": "/assets/img/icon/service-icon-2.svg"
     },
     {
         "id": 3,
-        "title": "Brake System Repair",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "title": "Brake System Services",
+        "description": "Thorough inspection and maintenance of brake components, including pads, rotors, and fluid, to guarantee your safety on the road.",
         "icon": "/assets/img/icon/service-icon-3.svg"
     },
     {
         "id": 4,
-        "title": "Engine Repair",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "title": "Suspension and Steering Repair",
+        "description": "Expert adjustments and repairs to your vehicle's suspension and steering systems for improved handling and ride comfort.",
         "icon": "/assets/img/icon/service-icon-4.svg"
     },
     {
         "id": 5,
-        "title": "Transmission Services",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "title": "Exhaust System Repair",
+        "description": "Complete assessment and repair of exhaust components to reduce emissions and enhance engine performance.",
         "icon": "/assets/img/icon/service-icon-5.svg"
     },
     {
         "id": 6,
-        "title": "Electrical System",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "title": "Cooling System Services",
+        "description": "Comprehensive checks and repairs of radiators, hoses, and water pumps to prevent overheating and ensure engine longevity.",
         "icon": "/assets/img/icon/service-icon-6.svg"
     },
     {
         "id": 7,
-        "title": "Steering Repair",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "title": "Fuel System Cleaning",
+        "description": "Professional cleaning and servicing of fuel injectors and filters to improve fuel efficiency and engine responsiveness.",
         "icon": "/assets/img/icon/service-icon-7.svg"
     },
     {
         "id": 8,
-        "title": "Heating Services",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "title": "Electrical System Diagnostics",
+        "description": "In-depth analysis of your vehicle’s electrical systems to troubleshoot issues with batteries, alternators, and wiring.",
         "icon": "/assets/img/icon/service-icon-8.svg"
     },
     {
         "id": 9,
-        "title": "Tire Services",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "title": "Denting Repair",
+        "description": "Expert removal of dents and dings using advanced techniques to restore your vehicle’s body to its original shape without compromising the finish.",
         "icon": "/assets/img/icon/service-icon-9.svg"
+    },
+    {
+        "id": 10,
+        "title": "Paintless Dent Repair",
+        "description": "A cost-effective method to fix minor dents without repainting, preserving the vehicle’s original paint while ensuring a smooth surface.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 11,
+        "title": "Scratch and Chip Repair",
+        "description": "Professional touch-ups to remove scratches and chips, restoring the integrity of your vehicle’s paint and enhancing its appearance.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 12,
+        "title": "Full Body Painting",
+        "description": "Comprehensive repainting services using high-quality paints for a flawless finish, transforming your vehicle’s look and protecting it from the elements.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 13,
+        "title": "Color Matching",
+        "description": "Precision color matching to ensure that any paint repairs seamlessly blend with your vehicle’s existing color for a uniform appearance.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 14,
+        "title": "Clear Coat Application",
+        "description": "Application of a protective clear coat to enhance the shine and durability of the paint, shielding it from UV rays and environmental damage.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 15,
+        "title": "Rust Treatment and Prevention",
+        "description": "Identification and treatment of rust spots, followed by protective coatings to prevent further corrosion and extend your vehicle's lifespan.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 16,
+        "title": "Custom Paint Jobs",
+        "description": "Creative and personalized painting options to give your vehicle a unique look, from graphic designs to specialty finishes.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 17,
+        "title": "Bumper Repair and Repainting",
+        "description": "Repair and repainting of damaged bumpers, restoring both appearance and functionality while matching the original color.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 18,
+        "title": "Preventative Maintenance",
+        "description": "Regular inspections and servicing to keep fleet vehicles in optimal condition, minimizing downtime and extending their lifespan.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 19,
+        "title": "Scheduled Inspections",
+        "description": "Comprehensive assessments at predetermined intervals to identify potential issues and ensure compliance with safety regulations.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 20,
+        "title": "Custom Fleet Solutions",
+        "description": "Tailored maintenance plans designed to meet the specific needs of your fleet, ensuring optimal performance and cost-effectiveness.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 21,
+        "title": "Emergency Roadside Assistance",
+        "description": "24/7 support for fleet vehicles, providing quick response and repairs to minimize downtime and keep your operations running smoothly.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 22,
+        "title": "Engine Tuning",
+        "description": "Fine-tuning your engine for optimal performance, enhancing fuel combustion, and improving overall fuel efficiency.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 23,
+        "title": "Fuel System Cleaning",
+        "description": "Professional cleaning of fuel injectors and filters to remove deposits, ensuring better fuel flow and efficiency.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 24,
+        "title": "Tire Maintenance",
+        "description": "Regular tire rotations, alignments, and pressure checks to reduce rolling resistance and improve fuel economy.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 25,
+        "title": "Aerodynamic Modifications",
+        "description": "Assessing and implementing aerodynamic enhancements to reduce drag, resulting in improved fuel efficiency during travel.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 26,
+        "title": "Weight Reduction Solutions",
+        "description": "Identifying and removing unnecessary weight from your vehicle, which can significantly enhance fuel economy.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
+    },
+    {
+        "id": 27,
+        "title": "Regular Maintenance Checks",
+        "description": "Comprehensive vehicle inspections to identify and resolve issues that could negatively impact fuel efficiency, such as air filter replacements and oil changes.",
+        "icon": "/assets/img/icon/service-icon-2.svg"
     }
 ]

@@ -4,17 +4,17 @@ const tabContents = [
   {
     title: "Mission",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stan. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "At Gear Heads Auto Garage, our mission is to provide high-quality, reliable automotive services with a commitment to excellence, integrity, and customer satisfaction. We strive to keep vehicles running smoothly and safely on the road.",
   },
   {
     title: "Vision",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. been the industry's stanLorem Ipsum has.",
+      "Our vision at Gear Heads Auto Garage is to be the go-to destination for all automotive repair and maintenance needs. We aim to set industry standards with cutting-edge technology, skilled technicians, and exceptional customer service.",
   },
   {
     title: "History",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stan.",
+      "Gear Heads Auto Garage was founded with a passion for cars and a commitment to quality service. Over the years, we have built a reputation for reliability, expertise, and customer trust, becoming a respected name in the automotive industry.",
   },
 ];
 
