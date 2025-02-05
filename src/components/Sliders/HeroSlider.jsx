@@ -147,7 +147,7 @@ const HeroSlider = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div className="hero-contact-info">
           <Link to="tel:(406)555-0120">
             <div className="d-flex align-items-center gap-2">
@@ -178,7 +178,7 @@ const HeroSlider = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="hero-pagination">
         <div className="hero-swiper-pagination"></div>
       </div>

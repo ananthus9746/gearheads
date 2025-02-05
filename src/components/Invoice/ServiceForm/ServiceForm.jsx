@@ -81,6 +81,11 @@ const checklist = [
       'Check tire rims & lug nuts',
       'Check tire inflation',
       'Check mud flaps',
+      'Head lights',
+      'Tail lights',
+      'Hazard lights',
+
+
     ],
   },
   {
@@ -288,13 +293,7 @@ const ServiceForm = () => {
         </div>
       ))}
 
-      {/* <Link
-        to={"/invoice"}
-        style={{ textDecoration: "none", color: "blue" }}
-        state={{ formData: formData, extraData: extraData }}
-      >
-        View Invoice
-      </Link> */}
+      
       <Link
         to={"/invoice"}
         style={{ textDecoration: "none", color: "blue",border:"2px solid black",padding:"10px",borderRadius:"5px" }}
