@@ -16,10 +16,7 @@ const About = () => {
       <AboutPageHero title={"About Us"} />
       <CompanyTab />
       <ChooseUs />
-      <AutoCounter />
-      <Testimonial />
-      <Teams />
-      <TrustedClient />
+    
     </>
   );
 };
